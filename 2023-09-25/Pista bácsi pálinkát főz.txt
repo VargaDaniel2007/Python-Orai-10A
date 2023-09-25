@@ -1,0 +1,3 @@
+Pista bácsi pálinkát fõz 1 hónapon keresztül (30 nap). 
+Minden nap 1-5 liter közötti mennyiség készül el, de elõfordulhat (20% valószínûséggel), hogy Pista bácsi megiszik 1 liter pálinkát a haverokkal a friss fõzetbõl. Ha ez megtörténik, akkor következõ nap a másnaposság miatt nem tud pálinkát fõzni. 
+Generálja le Pista bácsi 1 havi pálinka termelését! Határozza meg, melyik napokon fõzte Pista bácsi a legtöbb pálinkát, illetve mikor volt Pista bácsinak a legnagyobb a pálinka készlete, és az hány liter volt!
