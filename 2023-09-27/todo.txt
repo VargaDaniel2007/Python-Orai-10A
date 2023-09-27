@@ -1,0 +1,97 @@
+Egy szám osztói
+
+Írj programot, mely bekér egy pozitív egész számot, majd kiszámolja és
+kiírja annak osztóit! Az osztók egy sorban, pontosvesszővel elválasztva
+jelenjenek meg!
+
+A program várt működése pl. a következő:
+Írj be egy pozitív egész számot: 15
+15 osztói: 1; 3; 5; 15
+
+####################################################
+Tökéletes számok
+
+Egy pozitív egész számot tökéletesnek nevezünk, ha a szám megegyezik az
+önmagánál kisebb osztóinak összegével. Pl. a 6 tökéletes szám, mert az
+önmagánál kisebb osztói az 1, 2, 3, és ezek összege pont 6.
+Az előző feladat mintájára, írj programot, mely bekér egy pozitív egész
+számot, majd megállapítja, hogy az tökéletes szám-e vagy nem! 
+
+A program várt működése pl. a következő:
+Írj be egy pozitív egész számot: 6
+Tökéletes szám!
+Írj be egy pozitív egész számot: 12
+Nem tökéletes szám.
+
+####################################################
+Tökéletes számok keresése
+
+Írj programot, mely egy megadott felső határig az összes számot
+megvizsgálja, és kiírja a tökéletes számokat! 
+
+A program várt működése pl. a következő:
+Tökéletes szám keresésének felső határa: 100
+Ezeket a tökéletes számokat találtam:
+6; 28
+
+####################################################
+####################################################
+Prímszámok
+
+Egy pozitív egész számot prímszámnak nevezünk, ha a számnak csak 1 és
+önmaga az osztója. Az 1 definíció szerint nem prím. A legkisebb prímszám
+így a 2, hiszen csak 1-gyel és önmagával osztható.
+Írj programot, mely bekér egy pozitív egész számot, majd megállapítja,
+hogy az prímszám-e vagy sem! 
+
+A program várt működése pl. a következő:
+Írj be egy pozitív egész számot: 6
+Nem prím.
+Írj be egy pozitív egész számot: 13
+Prím.
+
+####################################################
+Prímszámok keresése
+
+Írj programot, mely egy megadott felső határig az összes számot
+megvizsgálja, és kiírja a prímszámokat! 
+
+A program várt működése pl. a következő:
+Prímszám keresésének felső határa: 100
+Ezeket a prímszámokat találtam:
+2; 3; 5; 7; 11; 13; 17; 19; 23; 29; 31; 37; 41; 43; 47; 53;
+59; 61; 67; 71; 73; 79; 83; 89; 97
+
+####################################################
+####################################################
+Pitagoraszi számhármasok
+
+A Pitagorasz-tétel azt mondja ki, hogy bármely derékszögű háromszög
+leghosszabb oldalának (átfogójának) négyzete megegyezik a másik két
+oldal (a befogók) négyzetének összegével. Röviden: a2 + b2 = c2
+
+Írj programot, mely bekéri egy háromszög három oldalának hosszát, majd
+megállapítja, hogy a háromszög derékszögű-e! 
+A program várt működése pl. a következő:
+1. oldal: 5 
+2. oldal: 4 
+3. oldal: 3 
+Derékszögű háromszög. 
+
+1. oldal: 3
+2. oldal: 6
+3. oldal: 7
+Nem derékszögű háromszög
+####################################################
+Pitagorszi hármasok keresése
+
+Írj programot, mely egy megadott felső határig az összes pozitív egész
+számot behelyettesíti a és b helyére, kiszámolja a hozzájuk tartozó
+megfelelő c értéket, leellenőrzi, hogy a, b, és c kielégítik-e Pitagorasz
+tételét, és ha igen, kiírja őket a képernyőre! A program várt működése pl.
+a következő:
+Befogó max hossza: 10
+3 4 5; 4 3 5; 6 8 10; 8 6 10
+
+####################################################
+####################################################

@@ -1,0 +1,23 @@
+Egy héten kersztül naponta 3-szor mérünk hőfokot az állatkertben.
+Ha az átlag hőmérséklet meghaladja a 10 fokot, akkor a medve előjön a barlangjából.
+Kérje be az adatokat és írja ki, hogy a héten hány napon láthatták a medvét a gyerekek!
+
+Pl.:
+1. nap:
+Reggel: 6.7
+Délben: 12
+Este: 10.8
+
+2. nap:
+Reggel: 7.7
+Délben: 13
+Este: 10.1
+
+3. nap:
+Reggel: 4
+Délben: 9.3
+Este: 7.1
+
+....
+
+A héten 3 nap volt látható a medve.
