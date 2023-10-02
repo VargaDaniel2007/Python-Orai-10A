@@ -1,0 +1,9 @@
+1. feladat:
+Készítsünk programot, amely ki fogja kérdezni a matematikát (két szám összeadását, kivonását és szorzását az <1,10> intervallumból). A két számot és a műveletet a számítógép véletlenszerűen válassza ki! A program akkor fejeződjön be, ha a felhasználó 10 példát kiszámolt helyesen. Rossz válasz esetén kérdezzen új példát! A program végén írjuk ki az eredményességet százalékokban!
+
+2. feladat: 
+Generáljunk egy 4 jegyű PIN kódot!
+Kérjük be a felhasználótól a PIN kódot! Maximum 3 próbálkozása lehet. Ha nem találja el, akkor írjuk ki, hogy HIBÁS, és hogy hány próbálkozása maradt még! Három sikertelen próbálkozás után írjuk ki hogy "ZÁROLÁS", egyébként "Sikeres azonosítás", és lépjen ki a programból.
+v1: Ha a PIN kód helyett egy mesterkódot ad meg (legyen: 123456) akkor írja ki a PIN kódot!
+v2: Ha a PIN kód helyett egy mesterkódot ad meg, akkor tudja megváltoztatni a PIN kódját! Kérjük be kétszer az új PIN kódot, és ha egyeznek, akkor cseréljük le a régit!
+
