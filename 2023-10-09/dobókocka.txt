@@ -1,0 +1,29 @@
+Dobókockás szerencsejáték
+
+- A játékosnak van 1000 krajcárja.
+- A játékos meghatározza, hogy mekkora összeget kockáztat/tesz fel
+- A játékos tippel, hogy az alábbi lehetőségek közül mekkora lesz a kockadobás eredménye
+	- 1,2
+	- 3,4
+	- 5,6
+Ha a játékos eltalálta a tartományt, akkor a tétjét, és a nyereményt (tét duplája) is megkapja.
+Ha veszített, akkor a tétjét elbukja.
+
+A játék addig tart, amíg a játékos folytatja, vagy elfogy a pénze.
+
+-----------------
+
+Mekkora összeget kockáztat? 100
+	a: 1-es vagy 2-es
+	b: 3-as vagy 4-es
+	c: 5-ös vagy 6-es
+Választás: a
+Dobás: 2, Ön nyert! 
+Ön pénze: 1200.
+
+Folytatja (i/n): n
+
+
+
+
+
