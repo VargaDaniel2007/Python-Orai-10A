@@ -1,0 +1,18 @@
+- 30 elemű tömb: 2023 májusi napi átlaghőmérsékletek 1 tizedes
+- feltöltés
+	- kérdezzük, meg hogy kézzel vagy random
+- Adott nap hőmérsékletének lekérdezése
+	- szeretné módosítani?
+- Első hét hőmérsékleteinek kiírása (Szerdával kezdődött a hónap)
+
+- Lista deklarálása értékadással: pl.: hét napjai
+- kérjünk be egy napot (input): írjuk ki annak a napnak a hőmérsékleteit. 
+	pl.:
+		Kérek egy napot: hétfő
+			Május 1.: 14 fok
+ 	    	Május 8.: 17 fok
+
+
+- min, max, átlag
+
+https://www.w3schools.com/python/python_lists.asp
