@@ -1,0 +1,28 @@
+20 versenyző küzd az időmérő edzésen egy autóversenyen.
+A versenyzők rajtszámai: 1..20. A 19. és 20 rajtszámú versenyzőnek még nincs mért ideje, a többek ideje az alábbi listában található:
+
+['1:36.103', '1:57.799', '1:41.153', '1:51.697', '1:40.370', '1:36.106', '1:52.216', '1:40.766', '1:57.311', '1:39.668', '1:46.402', '1:59.298', '1:47.474', '1:44.234', '1:49.676', '1:57.474', '1:49.263', '1:36.397']
+
+Feladatok:
+1. Új köridő megadása. Kérdezze meg a program a versenyző rajtszámát, és ellenőrizze le, 
+   hogy a most megadott köridő valóban gyorsabb-e, mint ami a listában van.
+   FONTOS: a 19-es rajtszámú versenyző hamarabb fogja teljesíteni az első mért kört, mint a 20-as
+   
+2. A jelenlegi pályarekord: 1:35.887.
+   Van-e olyan versenyző, akinek sikerült megdönteni a rekordot.
+
+3. Azok a versenyzők, akik 1:37.000 belüli időt futnak meghívást kapnak a szponzor által szervezett esti partira.
+   Hány versenyzőre számíthat a szponzor?
+
+4. Nyertes / pillanatnyilag vezető versenyző rajsztámának és köridejének kiírása
+
+5. Kieső versenyzők
+   Egy versenyző nem indulhat a versenyen, ha az átagos köridőnél 15%-al rosszabb időt ment.
+   Írja ki a program mely rajtszámú versenyzők vannak kieső helyen, és mi a jelenlegi köridejük.
+
+PLUSZ feladatok
+
++1. Az első feladat megoldása úgy, hogy 24 versenyző van, és előfordulhat, hogy 24. rajtszámú versenyző hamarabb
+    teljesít mért kört, mint a 19-es.
++2  Az első három helyett versenyző rajtszámának és idejének kiírása
++3  Hány éves a kapitány?
