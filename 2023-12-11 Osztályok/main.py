@@ -1,10 +1,13 @@
 import os
 from auto import Auto
 
-autok: list[Auto] = []
+autok: list[Auto] = [
+    Auto('ABC-123', 'Audio RS6', 23245, 14.5, 23.5, 73),
+    Auto(rendszam = 'DEF-456', tipus = 'Vw Passat 1.9TDI', fogyasztas = 7.5, kmOraAllas = 122542, uzemanyagMennyiseg = 3.4, uzemanyagTartalyMeret = 68)
+]
 
 def main():
-    induloAdatok()
+    #induloAdatok()
     v = ''
     while v != '0':
         v = menu()
@@ -16,7 +19,7 @@ def main():
             case '3':
                 autoTorles()
             case '4':
-                pass
+                ujUt()
             case '5':
                 pass
 
@@ -62,15 +65,14 @@ def autoLista():
 
 def ujAuto():
     os.system('cls')
-    a = Auto()
-    a.rendszam = input('Az új autó rendszáma: ')
-    a.tipus = input('Típusa: ')
-    a.kmOraAllas = int(input('Km óra állás: '))
-    a.fogyasztas = float(input('Fogyasztása (liter / 100km): '))
-    a.uzemanyagTartalyMeret = int(input('Üzemanyagtartály mérete (l): '))
-    a.uzemanyagMennyiseg = float(input('Jelenlegi üzemanyag szint/mennyiség (l): '))    #TODO: ellenőrzés
+    rendszam = input('Az új autó rendszáma: ')
+    tipus = input('Típusa: ')
+    kmOraAllas = int(input('Km óra állás: '))
+    fogyasztas = float(input('Fogyasztása (liter / 100km): '))
+    uzemanyagTartalyMeret = int(input('Üzemanyagtartály mérete (l): '))
+    uzemanyagMennyiseg = float(input('Jelenlegi üzemanyag szint/mennyiség (l): '))    #TODO: ellenőrzés
 
-    autok.append(a)
+    autok.append(Auto(rendszam, tipus, kmOraAllas, fogyasztas, uzemanyagMennyiseg, uzemanyagTartalyMeret))
     print('\nSikeres rögzítés')
     input('<ENTER>')
 
@@ -94,6 +96,21 @@ def autoTorles():
     
     input('<ENTER>')
 
+def ujUt():
+    os.system('cls')
+    a = autoKereses("Kérem az autó rendszámát: ")
+    if a == None:
+        print('Az autó nem található')
+    else:
+        ujKmOraAllas = int(input('Az autó km óra állása az út után: '))
+        try:
+            a.utazas(ujKmOraAllas)
+            print('Sikeres rögzítés')
+        except Exception as e:
+            print(e)
 
+    input('<ENTER>')
+
+#HF: Tankolás függvény, hibakezeléssel
 
 main()
