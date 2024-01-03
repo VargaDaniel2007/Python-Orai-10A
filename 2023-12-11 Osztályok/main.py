@@ -34,6 +34,7 @@ def menu() -> str:
 
     return input('\nVálasztás: ')
 
+'''
 def induloAdatok():
     audi = Auto()       #Példányosítás
     audi.rendszam = 'ABC-123'
@@ -54,6 +55,7 @@ def induloAdatok():
     vw.uzemanyagTartalyMeret = 68
 
     autok.append(vw)
+'''
 
 def autoLista():
     os.system('cls')
