@@ -1,0 +1,3 @@
+rendszám;típus;km óra állás;fogyasztás;üa mennyiség;üa tartály mérete
+ABC-123;Audi RS6;23245;14.5;23.5;73
+DEF-456;Vw Passat 1.9TDI;122542;7.5;3.4;68
