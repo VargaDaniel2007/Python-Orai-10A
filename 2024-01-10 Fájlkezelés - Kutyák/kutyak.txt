@@ -1,0 +1,6 @@
+név;fajta;életerő
+Bodri;puli;50
+Cézár;dobermann;70
+Rex;német juhász;70
+Béla;keverék;40
+Keksz;tacskó;50
