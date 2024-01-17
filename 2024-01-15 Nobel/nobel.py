@@ -11,6 +11,7 @@ def main():
     bekeDij()
     curie()
     dijSzam()
+    orvosi()
     
 
 
@@ -75,9 +76,15 @@ def dijSzam():
     print(f'\tbéke\t\t\t{bekeDB} db')
     print(f'\tközgazdaságtani\t\t {kozgazdDB} db')
 
-# def orvosi():
-#     f = open('orvosi.txt', 'w', encoding='utf-8')
-#     for dij in dijak:
-#         if dij.tipus == 'orvosi':
-#             f.write(f'{dij.ev}:{dij.keresztn} {dij.vezetekn}')
+def orvosi():
+    orvosidijak: list[Nobel] = []
+    f = open('orvosi.txt', 'w', encoding='utf-8')
+    for dij in dijak:
+        if dij.tipus == 'orvosi':
+            orvosidijak.append(dij)
+    orvosidijak.reverse()
+    for orvosi in orvosidijak:
+        f.write(f'{orvosi.ev}:{orvosi.keresztn} {orvosi.vezetekn}\n')
+    f.close()
+
 main()
