@@ -11,7 +11,7 @@ class Versenyzo:
         for p in adatok[3:]:
             self.pontok.append(int(p))
         
-    def osszpontszam(self)
+    def osszpontszam(self):
         pontszam = 0
 
         temp = []

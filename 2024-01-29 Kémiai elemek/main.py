@@ -8,6 +8,16 @@ def main():
     okor()
     kereses(bekeres())
     leghosszabb()
+    #Megoldás 2 / 7. feladat:
+    elozoEv = -1
+    max = -1
+    for e in felfedezes:
+        if elozoEv != -1 and elozoEv != -1:
+            if max < e.ev - elozoEv:
+                max = e.ev - elozoEv
+        elozoEv = e.ev
+
+    print(f'7. feladat: {max}')
 
 def betoltes():
     f = open('felfedezesek.csv', 'r', encoding='utf-8')
@@ -53,4 +63,9 @@ def leghosszabb():
             
 
     print(f'7. feladat: {maxEv} év volt a leghosszabb időszak két elem felfedezése között.')
+
+
+
+
+
 main()

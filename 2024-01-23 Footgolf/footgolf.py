@@ -15,3 +15,11 @@ for v in versenyzok:
         nok += 1
 print(f'4. feladat: A női versenyzők aránya: { (nok / len(versenyzok)) * 100:.2f} %')
 
+legjobbNoiVersenyzo: Versenyzo = None
+for v in versenyzok:
+    if v.kategoria == 'Noi':
+        if legjobbNoiVersenyzo == None:
+            legjobbNoiVersenyzo = v
+        elif legjobbNoiVersenyzo.osszpontszam() < v.osszpontszam():
+            legjobbNoiVersenyzo = v
+print(f'Legjobb női versenyző: {legjobbNoiVersenyzo.nev}')
