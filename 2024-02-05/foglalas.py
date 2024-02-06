@@ -6,5 +6,9 @@ class Foglalas:
         self.idopont = adatok[2]
         self.foglalas_idopont = adatok[3]
 
-        oopp = self.idopont.split(':')      #['16', '30']
-        self.percek = int(oopp[0]) * 60 + int(oopp[1])
+        # oopp = self.idopont.split(':')      #['16', '30']
+        # self.percek = int(oopp[0]) * 60 + int(oopp[1])
+
+        #a fenti két sor kicsit másképp
+        ora, perc = self.idopont.split(':') #ora =16 perc = 30
+        self.percek = int(ora) * 60 + int(perc)
