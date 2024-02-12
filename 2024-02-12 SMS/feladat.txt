@@ -1,0 +1,10 @@
+1. olvassa be az sms.txt fájlban található adatok. Az elsõ sorban a küldés idõpontja 
+   és a küldõ telefonszáma van, a második sorban maga a szöveg.
+2. Összesen hány sms érkezett?
+3. Ki küldte a leghosszabb SMS-t?
+4. Tartalmazott-e valamelyik üzenet smile-t  ":-)" ?
+5. Határozza meg melyik telefonszámról érkezett a legtöbb SMS.
+
+
+
+
