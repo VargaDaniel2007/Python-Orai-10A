@@ -1,5 +1,8 @@
 def szokoev_e(ev:int) -> bool:
-    #TODO: hétfőn befejezzük, még kell csinálni
+    if ev % 400 == 0:
+        return True
+    if ev % 100 == 0:
+        return False
     return ev % 4 == 0
 
 print('2. feladat: Szökőév listázó')
@@ -26,5 +29,5 @@ else:
         if ev == szokoevek[-1]:
             print(ev)
         else:
-            print(f'{ev}; ', end='; ')
+            print(f'{ev}; ', end='')
     
