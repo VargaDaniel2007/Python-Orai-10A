@@ -41,4 +41,34 @@ for k in kuldetesek:
 print(f'\tA leghosszabb ideig a {leghosszabb.ursiklo} volt az űrben {leghosszabb.kod} küldetés során')
 print(f'\tÖsszesen {leghosszabb.osszes_ora} órát volt távol a Földtől')
 
+print('8. feladat')
+evszam = input('\tÉvszám: ')
+db = 0
+for k in kuldetesek:
+#     if k.datum.startswith(evszam):
+#         db += 1
+    if  k.datum[:4] == evszam:
+        db += 1
+if db == 0:
+    print('\tEbben az évben nem indult küldetés')
+else:
+    print(f'\tEbben az évben {db} küldetés volt')
 
+print('9. feladat')
+db = 0
+for k in kuldetesek:
+    if k.landolas == 'Kennedy':
+        db += 1
+print(f'\tA küldetések {100 * db /len(kuldetesek):.2f} %-a fejeződött be a Kennedy űrközpontban.')
+
+stat = dict()
+for k in kuldetesek:
+    if k.ursiklo in stat.keys():
+        stat[k.ursiklo] += k.osszes_ora
+    else:
+        stat[k.ursiklo] = k.osszes_ora
+
+f = open('ursiklok.txt', 'w', encoding='utf-8')
+for key, value in stat.items():
+    f.write(f'{key}\t{value/24:.2f}\n')
+f.close()
