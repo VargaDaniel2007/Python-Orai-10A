@@ -1,0 +1,56 @@
+﻿Festmeny;Festo;Keszites_eve;Becsult_ertek;Eredeti_ar;Eladas_eve
+A Wheatfield with Cypresses;Vincent van Gogh;1889;93700000;57000000;1993
+Acrobate et jeune arlequin;Pablo Picasso;1905;75900000;38500000;1988
+Adele Bloch-Bauer II;Gustav Klimt;1912;103500000;87900000;2006
+Anna's Light;Barnett Newman;1968;107300000;105700000;2013
+Au Lapin Agile;Pablo Picasso;1904;76600000;40700000;1989
+Bal du moulin de la Galette;Pierre-Auguste Renoir;1876;143300000;78100000;1990
+Black Fire I;Barnett Newman;1961;84200000;84200000;2014
+Darmstadt Madonna;Hans Holbein;1526;78700000;75000000;2011
+Diana and Actaeon;Titian;1556;78900000;70600000;2009
+Diana and Callisto;Titian;1559;74100000;71700000;2012
+Dora Maar au Chat;Pablo Picasso;1941;111500000;95200000;2006
+Eagle Standing on Pine Tree;Qi Baishi;1946;68700000;65500000;2011
+Eight Elvises;Andy Warhol;1963;109500000;100000000;2008
+False Start;Jasper Johns;1959;94000000;80000000;2006
+Femme assise dans un jardin;Pablo Picasso;1938;69700000;49500000;1999
+Femme aux Bras Croisés;Pablo Picasso;1902;74900000;55000000;2000
+Flag;Jasper Johns;1954;119800000;110000000;2010
+Garçon à la pipe;Pablo Picasso;1905;130600000;104200000;2004
+Green Car Crash (Green Burning Car I);Andy Warhol;1963;81800000;71700000;2007
+Irises;Vincent van Gogh;1889;110700000;53900000;1987
+Le Bassin aux Nymphéas;Claude Monet;1919;87300000;80500000;2008
+Le Rêve;Pablo Picasso;1932;157900000;155000000;2013
+Les Noces de Pierrette;Pablo Picasso;1905;92900000;49300000;1989
+Massacre of the Innocents;Peter Paul Rubens;1611;101000000;76700000;2002
+Men in Her Life;Andy Warhol;1962;68700000;63400000;2010
+No 1 (Royal Red and Blue);Mark Rothko;1954;77000000;75100000;2012
+No. 5 1948;Jackson Pollock;1948;164700000;140000000;2006
+Nude Sitting on a Divan;Amedeo Modigliani;1917;74700000;69000000;2010
+Nude Green Leaves and Bust;Pablo Picasso;1932;115700000;106500000;2010
+Orange Red Yellow;Mark Rothko;1961;89600000;86900000;2012
+Peasant Woman Against a Background of Wheat;Vincent van Gogh;1890;70200000;47500000;1905
+Police Gazette;Willem de Kooning;1955;74600000;63500000;2006
+Portrait de l'artiste sans barbe;Vincent van Gogh;1889;103400000;71500000;1998
+Portrait of a Halberdier;Pontormo;1537;67400000;35200000;1989
+Portrait of Adele Bloch-Bauer I;Gustav Klimt;1907;157700000;135000000;2006
+Portrait of Alfonso d'Avalos Marquis of Vasto in Armor with a Page;Titian;1533;90000000;70000000;2003
+Portrait of Dr. Gachet;Vincent van Gogh;1890;151400000;82500000;1990
+Portrait of Joseph Roulin;Vincent van Gogh;1889;112000000;58000000;1989
+Rideau Cruchon et Compotier;Paul Cézanne;1894;86300000;60500000;1999
+Salvator Mundi;Leonardo Da Vinci;1490;78900000;77500000;2013
+Silver Car Crash (Double Disaster);Andy Warhol;1963;107200000;105400000;2013
+Suprematist Composition;Kazimir Malevich;1916;67000000;60000000;2008
+The Card Players;Paul Cézanne;1892;273000000;259000000;2011
+The Gross Clinic;Thomas Eakins;1875;78000000;68000000;2007
+The Scream;Edvard Munch;1895;123700000;119900000;2012
+Three Studies for a Portrait of John Edwards;Francis Bacon;1984;80800000;80800000;2014
+Three Studies of Lucian Freud;Francis Bacon;1969;144500000;142400000;2013
+Triptych 1976;Francis Bacon;1976;94400000;86300000;2008
+Turquoise Marilyn;Andy Warhol;1964;91200000;80000000;2007
+Untitled;Mark Rothko;1952;66200000;66200000;2014
+Vase with Fifteen Sunflowers;Vincent van Gogh;1888;83900000;39700000;1987
+White Center (Yellow Pink and Lavender on Rose);Mark Rothko;1950;83000000;72800000;2007
+Woman III;Willem de Kooning;1953;161800000;137500000;2006
+Yo Picasso;Pablo Picasso;1901;91600000;47800000;1989
+Zhichuan Resettlemen;Wang Meng;1350;65300000;62100000;2011

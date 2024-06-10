@@ -1,0 +1,23 @@
+Készítsen függvényt, number_input() néven, amely 2 paraméter kap:
+    - szöveg
+    - maximum
+Működése: kiírja a szöveget a képernyőre és a felhasználótól egy pozitív egész számot vár.
+Újra bekéri az értéket ha:
+    - nem szám
+    - ha negatív vagy 0
+    - nagyobb, mint a maximum
+Visszatér a bekért számmal.
+
+A függvény felhasználásával kérjen be két dátumot!
+Pl.:
+Kérem az első dátum évét: 2024
+Kérem az első dátum hónapját: 1
+Kérem az első dátum napját: 12
+
+Kérem a második dátum évét: 2024
+Kérem a második dátum hónapját: 1
+Kérem a második dátum napját: 15
+
+Írjon függvényt, amely meghatározza a két dátum között eltelt napok számát!
+Pl.:
+2024.01.12 és 2024.01.15 között 3 nap volt!
