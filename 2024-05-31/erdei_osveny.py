@@ -18,7 +18,7 @@ def main():
 def atkeles(osveny):
     pocsolyak = 0
     for p in osveny:
-        if pocsolyak == 4:
+        if pocsolyak >= 4:
             return True
         elif p == 1:
             pocsolyak += 1

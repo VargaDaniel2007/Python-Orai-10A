@@ -1,0 +1,45 @@
+
+header{
+    padding: 15px;
+}
+
+nav li{
+    list-style: none;
+}
+.navbar{
+    background-color: #fd5000;
+}
+
+h1{
+    margin-top: 10px;    
+    color:   #fd5000;
+}
+
+h2{    
+    margin-top: 10px;    
+    padding: 5px 15px;
+}
+
+h3{    
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    color:  #fd5000;    
+    border-top: 1px dashed #fd5000;  
+}
+
+p{
+    text-align: justify;
+}
+
+.center {
+    display: block;
+   }
+
+footer{
+    background-color: #fd5000;
+}
+
+footer p{ 
+    font-variant: small-caps;   
+}
